@@ -1,0 +1,157 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6" pages="2">
+  <diagram name="Page-1" id="jhCttKOKGogPGQyRvZnt">
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MUkyi56Khs-kcbBbqMce-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MUkyi56Khs-kcbBbqMce-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MUkyi56Khs-kcbBbqMce-2" target="MUkyi56Khs-kcbBbqMce-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUkyi56Khs-kcbBbqMce-6" value="&amp;lt;&amp;lt; Request to backend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MUkyi56Khs-kcbBbqMce-5">
+          <mxGeometry x="-0.0367" y="-2" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUkyi56Khs-kcbBbqMce-2" value="Bitcoin UI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MUkyi56Khs-kcbBbqMce-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MUkyi56Khs-kcbBbqMce-4" target="MUkyi56Khs-kcbBbqMce-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUkyi56Khs-kcbBbqMce-11" value="&amp;lt;Bitcoin API request&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MUkyi56Khs-kcbBbqMce-9">
+          <mxGeometry x="0.5152" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUkyi56Khs-kcbBbqMce-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MUkyi56Khs-kcbBbqMce-4" target="MUkyi56Khs-kcbBbqMce-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUkyi56Khs-kcbBbqMce-12" value="&amp;lt;Current API request&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MUkyi56Khs-kcbBbqMce-10">
+          <mxGeometry x="0.5263" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUkyi56Khs-kcbBbqMce-4" value="Backend" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="434" y="163" width="76" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MUkyi56Khs-kcbBbqMce-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="242" width="76" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MUkyi56Khs-kcbBbqMce-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="71" width="76" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MUkyi56Khs-kcbBbqMce-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.393;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MUkyi56Khs-kcbBbqMce-4" target="MUkyi56Khs-kcbBbqMce-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="472" y="240" />
+              <mxPoint x="197" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUkyi56Khs-kcbBbqMce-18" value="&amp;lt;&amp;lt;Final response&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MUkyi56Khs-kcbBbqMce-17">
+          <mxGeometry x="0.0736" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nByj71eOqmsqcHxKR8TV" name="Page-2">
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="86" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-2" value=":Bitcoin&lt;div&gt;UI&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="143" y="79" width="60" height="201" as="geometry" />
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="fNJ80fvN-BUZIs9v_H4T-2">
+          <mxGeometry x="25" y="50" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-4" value=":Controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="268" y="79" width="60" height="201" as="geometry" />
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="fNJ80fvN-BUZIs9v_H4T-4">
+          <mxGeometry x="25" y="50" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="144" as="sourcePoint" />
+            <mxPoint x="294" y="144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-7" value=":Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="401" y="79" width="60" height="201" as="geometry" />
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="fNJ80fvN-BUZIs9v_H4T-7">
+          <mxGeometry x="25" y="50" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="303" y="145" as="sourcePoint" />
+            <mxPoint x="426" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-10" value=":BitCoin API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="526" y="80" width="60" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="fNJ80fvN-BUZIs9v_H4T-10">
+          <mxGeometry x="25" y="50" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=-0.24;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="437" y="145.03999999999996" as="sourcePoint" />
+            <mxPoint x="549.5999999999999" y="145.03999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-13" value=":Currency API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="661" y="80" width="60" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="fNJ80fvN-BUZIs9v_H4T-13">
+          <mxGeometry x="25" y="50" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=-0.02;entryY=0.498;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="436" y="176" as="sourcePoint" />
+            <mxPoint x="685.8" y="176.84000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-16" value="Request to backend" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="119" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-17" value="Service call" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="322" y="119" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-18" value="Bitcoin API call" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="116" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-19" value="Currency API call" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="154" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-21" value="Response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="199" y="176" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="426" y="199" as="sourcePoint" />
+            <mxPoint x="303" y="199" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="293" y="199" as="sourcePoint" />
+            <mxPoint x="178" y="199" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fNJ80fvN-BUZIs9v_H4T-24" value="Response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="175" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
